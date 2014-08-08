@@ -6,7 +6,7 @@
 
 ## How to use
 
-* Install the Octosplit Enterprise [Chrome extension](https://chrome.google.com/webstore/detail/mnkacicafjlllhcedhhphhpapmdgjfbb)
+* Install the Octosplit Enterprise [Chrome extension](https://chrome.google.com/webstore/detail/bnfafegmcjkdpkobmpfeojinobmliiog)
 * Just go on a diffs page on GitHub Enterprise and check the new option : ![](http://imageshack.us/a/img833/9178/octosplitbutton.png)
 
 ## What is changed
