@@ -1,0 +1,44 @@
+.word-wrap .diff-line-code{
+  white-space: normal;
+}
+
+.container.large {
+  width: 98%;
+}
+
+.container.large .repository-content {
+  width: 95%
+}
+
+/* old repository version */
+.container.large {
+  width: 95%;
+}
+
+.octosplit-checkbox {
+  margin-left: 5px;
+}
+
+.octosplit-label {
+  margin-left: 15px;
+}
+
+.new-number {
+  border-left: 1px solid #ddd;
+}
+
+.gd .diff-line-num.nd {
+  background-color: white;
+  border-left: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+}
+
+.gi .diff-line-num.nd {
+  background-color: white;
+  border-right: 1px solid #e5e5e5;
+}
+
+.gd .diff-line-code.nd,
+.gi .diff-line-code.nd {
+  background-color: #e5e5e5;
+}

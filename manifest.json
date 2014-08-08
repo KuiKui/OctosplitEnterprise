@@ -1,0 +1,20 @@
+{
+  "name": "Octosplit Enterprise",
+  "version": "0.0.1",
+  "description": "Side by side diffs and word wrapping in GitHub Enterprise",
+  "manifest_version": 2,
+  "icons": {
+    "16": "img/icon16.png",
+    "48": "img/icon48.png",
+    "128": "img/icon128.png"
+  },
+  "content_scripts": [{
+    "matches": [
+      "*://*/*/*/pull/*", "*://*/*/*/commit/*", "*://*/*/*/compare/*"
+    ],
+    "exclude_matches": ["https://github.com/*/*"],
+    "run_at": "document_end",
+    "css": ["data/css/octosplit.css"],
+    "js": ["data/js/vendor/jquery-1.9.1.min.js", "data/js/octosplit.js"]
+  }]
+}
