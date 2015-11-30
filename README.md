@@ -1,3 +1,5 @@
+**WARNING** : *No longer relevant with GitHub’s built-in [side-by-side diff](https://github.com/blog/1884-introducing-split-diffs).*
+
 # Octosplit Enterprise
 
 **Octosplit Enterprise** is a lightweight Chrome extension that provides side by side diffs and word wrapping in GitHub Enterprise.
